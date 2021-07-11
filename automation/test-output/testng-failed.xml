@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="automation(failed)">
+    <classes>
+      <class name="NavigateThroughApp">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="navigation_through_app"/>
+        </methods>
+      </class> <!-- NavigateThroughApp -->
+    </classes>
+  </test> <!-- automation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
